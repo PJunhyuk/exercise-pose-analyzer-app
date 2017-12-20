@@ -129,6 +129,23 @@ app.get('/', function(req, res, next) {
     });
 });
 
+/* RUN PYTHON */
+
+var PythonShell = require('python-shell');
+
+for(var i = 0; i < files.length; i++) {
+    var file_name = files[i].split('.')[0];
+    var options = {
+      pythonPath: '/usr/bin/python',
+      args: ['-f', file_name]
+    };
+    PythonShell.run('./../../engine/test.py', options, function (err, results) {
+      if (err) throw err;
+      // results is an array consisting of messages collected during execution
+      console.log('PYTHON RUN SUCCESS!');
+    });
+}
+
 var multipartUploadHandler = function(req, res) {
     if (fileUploadCompleted) {
         fileUploadCompleted = false;
