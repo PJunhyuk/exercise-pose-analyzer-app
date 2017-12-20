@@ -42,9 +42,6 @@ public abstract class UploadActivity extends FilesPickerActivity {
     @BindView(R.id.add_file)
     AddItem addFile;
 
-    @BindView(R.id.add_parameter)
-    AddItem addParameter;
-
     @BindView(R.id.request_items)
     RecyclerView requestItems;
 
@@ -144,18 +141,8 @@ public abstract class UploadActivity extends FilesPickerActivity {
         addFileParameterNameDialog.hide();
     }
 
-    @OnClick(R.id.add_header)
-    public void onAddHeader() {
-        addHeaderDialog.show();
-    }
-
     public void onHeaderAdded(String name, String value) {
         uploadItemUtils.addHeader(name, value);
-    }
-
-    @OnClick(R.id.add_parameter)
-    public void onAddParameter() {
-        addParameterDialog.show();
     }
 
     public void onParameterAdded(String name, String value) {

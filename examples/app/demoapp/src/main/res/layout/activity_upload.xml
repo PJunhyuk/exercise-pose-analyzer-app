@@ -20,27 +20,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textUri"
-        android:hint="@string/server_address"
+        android:text="http://192.168.25.14:3000/upload/multipart"
         android:ems="10"
         android:imeOptions="actionDone"
         android:id="@+id/server_url"
         android:layout_marginBottom="@dimen/activity_vertical_margin" />
-
-    <net.gotev.uploadservicedemo.views.AddItem
-        android:id="@+id/add_header"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        app:titleText="@string/add_header"
-        app:colorFilter="@color/colorAccent"/>
-
-    <net.gotev.uploadservicedemo.views.AddItem
-        android:id="@+id/add_parameter"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        app:titleText="@string/add_parameter"
-        app:colorFilter="@color/colorPrimary"/>
 
     <net.gotev.uploadservicedemo.views.AddItem
         android:id="@+id/add_file"

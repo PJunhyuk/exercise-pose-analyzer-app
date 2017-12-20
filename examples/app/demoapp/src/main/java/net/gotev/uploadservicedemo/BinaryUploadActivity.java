@@ -34,7 +34,6 @@ public class BinaryUploadActivity extends UploadActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addParameter.setVisibility(View.GONE);
         addFile.setTitleText(getString(R.string.set_file));
     }
 

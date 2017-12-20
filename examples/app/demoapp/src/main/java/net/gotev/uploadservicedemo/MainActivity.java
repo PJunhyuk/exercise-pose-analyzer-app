@@ -12,9 +12,6 @@ import butterknife.OnClick;
 
 public class MainActivity extends BaseActivity {
 
-    @BindView(R.id.run_issue)
-    Button runIssue;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,25 +23,4 @@ public class MainActivity extends BaseActivity {
     public void onMultipartUpload(View view) {
         MultipartUploadActivity.show(this);
     }
-
-    @OnClick(R.id.binary_upload)
-    public void onBinaryUpload(View view) {
-        BinaryUploadActivity.show(this);
-    }
-
-    @OnClick(R.id.ftp_upload)
-    public void onFTPUpload(View view) {
-        FTPUploadActivity.show(this);
-    }
-
-    @OnClick(R.id.cancelAllUploadsButton)
-    public void onCancelAllUploadsButtonClick() {
-        UploadService.stopAllUploads();
-    }
-
-    @OnClick(R.id.run_issue)
-    public void runIssue() {
-        new Issue251(this).run();
-    }
-
 }
