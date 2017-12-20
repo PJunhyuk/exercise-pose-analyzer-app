@@ -23,6 +23,8 @@
     "passport": "^0.3.2",
     "passport-http": "^0.3.0",
     "consolidate": "^0.15.0",
-    "mustache": "^2.3.0"
+    "mustache": "^2.3.0",
+    "ejs": "^2.5.7",
+    "python-shell": "^0.4.0"
   }
 }

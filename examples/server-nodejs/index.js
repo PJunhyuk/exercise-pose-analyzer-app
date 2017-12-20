@@ -117,10 +117,16 @@ var multerFiles = multer({
 var engines = require('consolidate');
 
 app.engine('html', engines.mustache);
-app.set('view engine', 'html');
+app.set('view engine', 'ejs');
 
-app.get('/', function(req, res) {
-    res.render("./index.html");
+app.use('/uploads', express.static('uploads'));
+
+var files = fs.readdirSync('./uploads');
+
+app.get('/', function(req, res, next) {
+    res.render("./index.ejs", {
+        files: files
+    });
 });
 
 var multipartUploadHandler = function(req, res) {
