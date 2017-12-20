@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/demoapp/demoapp.iml" filepath="$PROJECT_DIR$/demoapp/demoapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercise-pose-analyzer-android.iml" filepath="$PROJECT_DIR$/exercise-pose-analyzer-android.iml" />
+      <module fileurl="file://$USER_HOME$/uploadservice/uploadservice.iml" filepath="$USER_HOME$/uploadservice/uploadservice.iml" />
+      <module fileurl="file://$USER_HOME$/uploadservice-ftp/uploadservice-ftp.iml" filepath="$USER_HOME$/uploadservice-ftp/uploadservice-ftp.iml" />
+      <module fileurl="file://$USER_HOME$/uploadservice-okhttp/uploadservice-okhttp.iml" filepath="$USER_HOME$/uploadservice-okhttp/uploadservice-okhttp.iml" />
+    </modules>
+  </component>
+</project>

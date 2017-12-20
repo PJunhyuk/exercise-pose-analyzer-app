@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="net.gotev:recycleradapter-1.6">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recycleradapter-1.6.aar/ca3bc8a64bb3870aefb990451c6cc5fe/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recycleradapter-1.6.aar/ca3bc8a64bb3870aefb990451c6cc5fe/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.gotev/recycleradapter/1.6/bc2baa5e3ea1fa0d222377307d69f50d43eeda8a/recycleradapter-1.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
