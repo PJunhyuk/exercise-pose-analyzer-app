@@ -8,10 +8,10 @@
         <item>OPTIONS</item>
     </string-array>
 
-    <string name="app_name">Upload Service</string>
+    <string name="app_name">E-P-A</string>
     <string name="cancel_all_uploads">Cancel all uploads</string>
     <string name="select_file">Select file to upload</string>
-    <string name="parameter_name_hint">Parameter name</string>
+    <string name="parameter_name_hint">아무거나 입력</string>
     <string name="parameter_value_hint">Parameter value</string>
     <string name="header_name_hint">Header name</string>
     <string name="header_value_hint">Header value</string>
@@ -29,7 +29,7 @@
     <string name="upload_success">Upload completed successfully in [[ELAPSED_TIME]]</string>
     <string name="upload_error">Error while uploading</string>
     <string name="upload_cancelled">Upload has been cancelled</string>
-    <string name="multipart_upload">Multipart Upload</string>
+    <string name="multipart_upload">운동 영상 업로드</string>
     <string name="binary_upload">Binary Upload</string>
     <string name="new_binary_upload">New Binary Upload</string>
     <string name="ftp_upload">FTP Upload</string>
@@ -44,10 +44,10 @@
     <string name="server_address">https://your.server.com</string>
     <string name="add_header">Add header</string>
     <string name="add_parameter">Add parameter</string>
-    <string name="add_file">Add file</string>
+    <string name="add_file">영상 올리기</string>
     <string name="set_file">Set file</string>
     <string name="next">Next</string>
-    <string name="next_instructions">Fill in the parameter name and tap on next to select the file</string>
+    <string name="next_instructions"></string>
     <string name="file_not_found">File %1$s not found! It will not be added to the upload request!</string>
     <string name="empty_multipart_upload">Empty upload, add some files!\nYou can also add headers and parameters</string>
     <string name="empty_binary_upload">Empty upload!\nAdd the file to be sent in the body of the request. You can also add headers.</string>

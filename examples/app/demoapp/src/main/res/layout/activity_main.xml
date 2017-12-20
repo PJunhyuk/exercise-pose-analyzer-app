@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clickable="true"
-            app:titleText="@string/new_multipart_upload"
+            app:titleText="운동 영상 올리기"
             app:colorFilter="@color/colorAccent"/>
 
     </LinearLayout>
