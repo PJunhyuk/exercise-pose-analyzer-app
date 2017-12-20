@@ -114,8 +114,13 @@ var multerFiles = multer({
     }
 });
 
+var engines = require('consolidate');
+
+app.engine('html', engines.mustache);
+app.set('view engine', 'html');
+
 app.get('/', function(req, res) {
-    res.end("Android Upload Service Demo node.js server running!");
+    res.render("./index.html");
 });
 
 var multipartUploadHandler = function(req, res) {
